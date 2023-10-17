@@ -1,18 +1,6 @@
-# DAGMA_Prior
+# Bayesian Structure learning using DAGMA in cases where you have some prior knowledge about the existence of some edges and their proportional power in the Graph
 
-## Citation
-the current repository uses the codes and the method provided by the following :
-@inproceedings{bello2022dagma,
-    author = {Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
-    booktitle = {Advances in Neural Information Processing Systems},
-    title = {{DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization}},
-    year = {2022}
-}
-
-
-
-
-
+  Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $$ |W| $$ is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
 
 
 
