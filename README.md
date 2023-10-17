@@ -70,6 +70,8 @@ We propose a new acyclicity characterization of DAGs via a log-det function for 
 
 ### The log-det acyclicity characterization
 
+Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $|W|  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
+
 Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
 
 $$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
