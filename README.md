@@ -7,7 +7,7 @@
    $$Loss_{sparsity} = |B^{*}\circ W|$$
   
 This repository is based on the original implementation codes of DAGMA:
-the link to the original implementation: [https://github.com/kevinsbello/dagma#readme]
+the link to the original implementation: [https://github.com/kevinsbello/dagma]
 
 
 # Citation
