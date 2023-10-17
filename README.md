@@ -3,6 +3,8 @@
   Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $B$ ($B \in \mathbb{R}^{*}$) and adjacency matrix $|W|  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
 Let $W \in
 
+$$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
+
 
 The `dagma` library is a Python 3 package for learning DAGs (a.k.a. Bayesian networks) from data.
 
