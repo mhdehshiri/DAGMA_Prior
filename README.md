@@ -4,17 +4,6 @@
 Let $W \in
 
 
-# ![DAGMA](https://raw.githubusercontent.com/kevinsbello/dagma/main/logo/dagma.png)
-
-<div align=center>
-  <a href="https://pypi.org/project/dagma"><img src="https://img.shields.io/pypi/v/dagma"></a>
-  <a href="https://pypi.org/project/dagma"><img src="https://img.shields.io/pypi/pyversions/dagma"></a>
-  <a href="https://pypi.org/project/dagma"><img src="https://img.shields.io/pypi/wheel/dagma"></a>
-  <a href="https://pypistats.org/packages/dagma"><img src="https://img.shields.io/pypi/dm/dagma"></a>
-  <a href="https://pypi.org/project/dagma"><img src="https://img.shields.io/pypi/l/dagma"></a>
-</div>
-
-
 The `dagma` library is a Python 3 package for learning DAGs (a.k.a. Bayesian networks) from data.
 
 DAGMA works by optimizing a given **score/loss function**, where the structure that relates the variables is constrained to be a directed acyclic graph (DAG). Due to the super-exponential number of DAGs w.r.t. the number of variables, the vanilla formulation results in a hard combinatorial optimization problem. DAGMA reformulates this optimization problem, by **replacing the combinatorial constraint with a non-convex differentiable function that exactly characterizes DAGs**, thus, making the optimization amenable to continuous optimization methods such as gradient descent.
@@ -30,16 +19,6 @@ This is an implementation of the following paper:
 
 If you find this code useful, please consider citing:
 
-### BibTeX
-
-```bibtex
-@inproceedings{bello2022dagma,
-    author = {Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
-    booktitle = {Advances in Neural Information Processing Systems},
-    title = {{DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization}},
-    year = {2022}
-}
-```
 
 ## Features
 
@@ -70,7 +49,7 @@ We propose a new acyclicity characterization of DAGs via a log-det function for 
 
 ### The log-det acyclicity characterization
 
-Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $W \in \mathbb  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme) . Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
+Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $W  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme) . Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
 
 Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
 
