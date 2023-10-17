@@ -1,12 +1,10 @@
 # Bayesian Structure learning using DAGMA where you have some prior knowledge about the existence of some edges powers in the Graph
 
-  Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $B$ ($B \in \mathbb{R}^{*}$) and adjacency matrix $|W|  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
+  Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $B$ ($B \in \mathbb{R}^{*}$) and adjacency matrix $|W| $ is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
 Let $W \in
 
 $$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
-$$\text{absolut}(W) \text{Hadamard product} B^*$$
 
-4
 
 The `dagma` library is a Python 3 package for learning DAGs (a.k.a. Bayesian networks) from data.
 
