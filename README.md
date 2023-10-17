@@ -2,7 +2,7 @@
 
   Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $B$ ($B^{*}$) and adjacency matrix $W$ is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme). the new sparsity term would be :
 
-   $$Loss = |B^{*}\circ W|$$
+   $$Loss_{sparsity} = |B^{*}\circ W|$$
   
 
 $$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
