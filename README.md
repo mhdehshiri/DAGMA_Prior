@@ -30,18 +30,6 @@ If you find this code useful, please consider citing:
 [dagma-nonlinear]: https://dagma.readthedocs.io/en/latest/api/dagma/nonlinear/
 [DagmaLinear]: https://dagma.readthedocs.io/en/latest/api/dagma/linear/DagmaLinear/
 
-## Getting Started
-
-### Install the package
-
-We recommend using a virtual environment via `virtualenv` or `conda`, and use `pip` to install the `dagma` package.
-```bash
-$ pip install dagma
-```
-
-### Using dagma
-
-See an example on how to use dagma in this [iPython notebook][example].
 
 ## An Overview of DAGMA
 
@@ -49,7 +37,7 @@ We propose a new acyclicity characterization of DAGs via a log-det function for 
 
 ### The log-det acyclicity characterization
 
-Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $W  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme) . Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
+Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $W \in \mathbb{R}^{*}$  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme) . Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
 
 Let $W \in \mathbb{R}^{d\times d}$ be a weighted adjacency matrix  of a graph of $d$ nodes, the log-det function takes the following form:
 
