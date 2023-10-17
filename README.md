@@ -6,6 +6,8 @@ Let $W \in
 $$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
 $$\text{absolut}(W) \text{Hadamard product} B^*$$
 
+4
+
 The `dagma` library is a Python 3 package for learning DAGs (a.k.a. Bayesian networks) from data.
 
 DAGMA works by optimizing a given **score/loss function**, where the structure that relates the variables is constrained to be a directed acyclic graph (DAG). Due to the super-exponential number of DAGs w.r.t. the number of variables, the vanilla formulation results in a hard combinatorial optimization problem. DAGMA reformulates this optimization problem, by **replacing the combinatorial constraint with a non-convex differentiable function that exactly characterizes DAGs**, thus, making the optimization amenable to continuous optimization methods such as gradient descent.
