@@ -1,6 +1,6 @@
 # Bayesian Structure learning using DAGMA where you have some prior knowledge about the existence of some edges powers in the Graph
 
-  Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $$ B $$ ($$ B^* $$) and adjacency matrix $|W|  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
+  Here the Hadamard product of the inverse of each component in the prior knowledge Matrix $B$ ($B \in \mathbb{R}^{*}$) and adjacency matrix $|W|  is replaced with the original sparsity term in DAGMA(https://github.com/kevinsbello/dagma#readme)
 Let $W \in
 
 
