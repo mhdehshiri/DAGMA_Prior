@@ -4,7 +4,7 @@
 Let $W \in
 
 $$h^{s}(W) = -\log \det (sI-W\circ W) + d \log s,$$
-
+$$\text{absolut}(W) \text{Hadamard product} B^*$$
 
 The `dagma` library is a Python 3 package for learning DAGs (a.k.a. Bayesian networks) from data.
 
